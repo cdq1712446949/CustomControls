@@ -1,7 +1,10 @@
 package com.example.machenike.customer;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.View;
+
+import com.example.machenike.customcontrols.R;
 
 
 public class SwitchButton extends View implements View.OnClickListener{
@@ -18,4 +21,17 @@ public class SwitchButton extends View implements View.OnClickListener{
     public void onClick(View view) {
 
     }
+
+    private void goOn(){
+
+
+
+    }
+
+    private void goOff(){
+
+
+
+    }
+
 }

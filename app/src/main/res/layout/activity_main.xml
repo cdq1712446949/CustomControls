@@ -16,15 +16,15 @@
 
       <Button
             android:id="@+id/button_1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
             android:background="@drawable/button_1_selecter" />
 
-        <Button
+        <com.example.machenike.customer.MyClickButton
             android:id="@+id/button_2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="样式2"/>
+            android:layout_height="100dp"
+            android:text="MyClickButton" />
 
         <Button
             android:id="@+id/button_3"
